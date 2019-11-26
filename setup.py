@@ -10,5 +10,5 @@ setup(name='teaching-pni',
       author='Tamas Spisak',
       author_email='tamas.spisak@uk-essen.de,',
       packages=find_packages('teaching-pni'),
-      scripts=['bin/boostit.py', 'bin/boostit-spark.sh'], install_requires=['numpy', 'pandas', 'plotly', 'scikitlearn']
+      install_requires=['numpy', 'pandas', 'plotly', 'scikit-learn']
       )
